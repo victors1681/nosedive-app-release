@@ -1,0 +1,19 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^1.5.2",
+    "babel-polyfill": "^6.26.0",
+    "firebase-admin": "~5.8.1",
+    "firebase-functions": "^0.8.1",
+    "lodash": "^4.17.5"
+  },
+  "private": true
+}
